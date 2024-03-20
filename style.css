@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  body {
+  }
+}
+h1 {
+  color: coral;
+  text-align: center;
+}
+.megaconteiner {
+  display: flex;
+  justify-content: space-around;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+.block {
+  width: 372px;
+  height: 430px;
+  border: 2px solid black;
+}
+img {
+  width: 370px;
+  height: 250px;
+}
+h5 {
+  color: gray;
+  padding-left: 5px;
+}
+.block_2 {
+  background-image: url(https://sportishka.com/uploads/posts/2022-04/1650658193_1-sportishka-com-p-gorod-vid-sverkhu-krasivo-foto-1.jpg);
+}
+.block_4 {
+  background-image: url(https://traveltimes.ru/wp-content/uploads/2021/12/wsi-imageoptim-1-Neboskreby-Gonkonga-2048x1280.jpg);
+}
+.block_6 {
+  background-image: url(https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663245287_16-mykaleidoscope-ru-p-ogromnii-gorod-krasivo-19.jpg);
+}
+.block_2 {
+  font-weight: 700;
+  background-size: cover;
+  p {
+    color: aliceblue;
+    padding-left: 5px;
+    padding-top: 10px;
+  }
+  h6 {
+    color: aliceblue;
+    padding-left: 5px;
+    padding-top: 10px;
+  }
+  h2 {
+    background-color: orange;
+    padding-left: 5px;
+    padding-top: 10px;
+  }
+}
+.block_4 {
+  font-weight: 700;
+  background-size: cover;
+  p {
+    color: aliceblue;
+    padding-left: 5px;
+    padding-top: 10px;
+  }
+  h6 {
+    color: aliceblue;
+    padding-left: 5px;
+    padding-top: 10px;
+  }
+  h2 {
+    background-color: orange;
+    padding-left: 5px;
+    padding-top: 10px;
+  }
+}
+.block_6 {
+  font-weight: 700;
+  background-size: cover;
+  p {
+    color: aliceblue;
+    padding-left: 5px;
+    padding-top: 10px;
+  }
+  h6 {
+    color: aliceblue;
+    padding-left: 5px;
+    padding-top: 10px;
+  }
+  h2 {
+    background-color: orange;
+    padding-left: 5px;
+    padding-top: 10px;
+  }
+}
+p {
+  padding-left: 5px;
+}
+h3 {
+  padding-left: 5px;
+}
+.conteiner_1 {
+  width: 372px;
+  height: 430px;
+  overflow: hidden;
+  .block_2 {
+    position: relative;
+    top: 0;
+    transition: 0.4s;
+  }
+  &:hover {
+    .block_2 {
+      top: -430px;
+    }
+  }
+}
+.conteiner_2 {
+  width: 372px;
+  height: 430px;
+  overflow: hidden;
+  .block_4 {
+    position: relative;
+    top: 0;
+    transition: 0.4s;
+  }
+  &:hover {
+    .block_4 {
+      top: -430px;
+    }
+  }
+}
+.conteiner_3 {
+  width: 372px;
+  height: 430px;
+  overflow: hidden;
+  .block_6 {
+    position: relative;
+    top: 0;
+    transition: 0.4s;
+  }
+  &:hover {
+    .block_6 {
+      top: -430px;
+    }
+  }
+}
